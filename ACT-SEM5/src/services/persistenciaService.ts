@@ -2,8 +2,8 @@ import { writeFile, readFile } from 'fs/promises';
 import { join } from 'path';
 
 export class PersistenciaService {
-    private rutaProductos = join(__dirname, '../data/productos.ts');
-    private rutaClientes = join(__dirname, '../data/clientes.ts');
+    private rutaProductos = join(process.cwd(), 'src/data/productos.ts');
+    private rutaClientes = join(process.cwd(), 'src/data/clientes.ts');
 
     private limpiarContenidoTS(contenido: string): any[] {
         if (!contenido.trim()) return [];

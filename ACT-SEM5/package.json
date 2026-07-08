@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "tsx src/index.ts",
+    "dev": "tsx src/index.ts",
     "test": ""
   },
   "keywords": [],
@@ -20,6 +20,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^26.1.0",
+    "esbuild": "^0.28.1",
     "ts-node": "^10.9.2",
     "tsx": "^4.23.0",
     "typescript": "^6.0.3"
