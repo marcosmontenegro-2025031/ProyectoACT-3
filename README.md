@@ -25,11 +25,13 @@ Para simplificar el desarrollo, la información se encuentra almacenada en archi
 src
 │
 ├── data
-│   ├── productos.ts
-│   └── usuarios.ts
+│   ├── productos.json
+│   └── usuarios.json
 │
 ├── menu
-│   └── menu.ts
+│   ├── menu.ts
+|   ├── clienteMenu.ts
+|   └── productoMenu.ts
 │
 ├── models
 │   ├── cliente.ts
