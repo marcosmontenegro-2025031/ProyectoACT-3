@@ -61,6 +61,7 @@ Define las interfaces utilizadas por el sistema.
 
 Contiene la lógica para agregar y mostrar clientes y productos.
 
+
 ### menu
 
 Implementa el menú principal y controla la interacción con el usuario.
