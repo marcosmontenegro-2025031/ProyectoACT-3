@@ -1,4 +1,4 @@
-export const productos = [
+[
   {
     "id": 1,
     "nombre": "Laptop",
@@ -10,5 +10,11 @@ export const productos = [
     "nombre": "Mouse Optico",
     "precio": 150,
     "stock": 25
+  },
+  {
+    "id": 1783520472351,
+    "nombre": "2",
+    "precio": 500,
+    "stock": 5
   }
-];
+]
